@@ -24,6 +24,14 @@ public class Main {
 		System.out.println("Index of 'bc': " + i);
 		System.out.println("Last index of 'bc': " + j);
 				
+		String s = "potato apple lemon orange";
+		String[] vect = s.split(" ");
+		
+		System.out.println(vect[0]);
+		System.out.println(vect[1]);
+		System.out.println(vect[2]);
+		System.out.println(vect[3]);
+				
 	}
 
 }
