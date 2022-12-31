@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Java COMPLETE Object Oriented Programming" src="./img/logo.png" />
+  <img alt="Java COMPLETE Object Oriented Programming" src="logo.png" />
 </h1>
 
 <h1 align="center">Java COMPLETE Object Oriented Programming + Projects</h1>
