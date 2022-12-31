@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Java COMPLETE Object Oriented Programming" src="logo.png" />
+  <img alt="Java COMPLETE Object Oriented Programming" src="java-complete-oop(logo).png" />
 </h1>
 
 <h1 align="center">Java COMPLETE Object Oriented Programming + Projects</h1>
@@ -44,6 +44,6 @@ The following tools were used in the construction of the project:
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [JPA](https://pt.wikipedia.org/wiki/Java_Persistence_API)
 - [Hibernate](https://hibernate.org/)
-- [Maven](https://maven.apache.org/) 
+- [Maven](https://maven.apache.org/)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [Spring Data MongoDB](https://spring.io/projects/spring-data-mongodb)
