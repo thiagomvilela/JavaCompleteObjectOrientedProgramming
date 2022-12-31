@@ -18,8 +18,7 @@ public class Program {
 	rectangle.height = sc.nextDouble();
 	
 	System.out.printf("AREA = %.2f%n", rectangle.area());
-	System.out.printf("PERIMETER = %.23"
-			+ "f%n", rectangle.perimeter());
+	System.out.printf("PERIMETER = %.2f%n", rectangle.perimeter());
 	System.out.printf("DIAGONAL = %.2f%n", rectangle.diagonal());
 	
 	sc.close();
