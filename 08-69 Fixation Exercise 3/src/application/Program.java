@@ -10,7 +10,7 @@ public class Program {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		Student student = new Student();
+		Student student = new Student(); // instantiation
 		
 		System.out.println("Enter the student's name and three grades: ");
 		student.name = sc.nextLine();
@@ -19,14 +19,18 @@ public class Program {
 		student.noteB = sc.nextDouble();
 		student.noteC = sc.nextDouble();
 		
+		System.out.printf("FINAL GRADE = %.2f%n", student.finalGrade());
 		
+		System.out.println(student.missingPoints());
 		
-		
-		
-		
-		
-		
-		
+		if (student.finalGrade() < 60.0) {
+			System.out.println("FAILED");
+			System.out.printf("MISSING %.2f POINTS %n", student.missingPoints());
+		}
+		else {
+			System.out.println("PASS");
+		}
+			
 		sc.close();
 		
 	}
