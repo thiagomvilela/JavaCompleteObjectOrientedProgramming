@@ -6,7 +6,7 @@ public class Product {
 	
 	// Encapsulation
 	
-	private String name;
+	String name;
 	private double price;
 	private int quantity;
 		
